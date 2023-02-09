@@ -1,0 +1,76 @@
+body{
+  background-color:black;
+  color:seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+nav ul{
+  list-style-type:none;
+  display:flex;
+  flex-wrap: wrap;
+  text-decoration: underline;
+  float: right;
+}
+nav li{
+ margin-right: 10px;
+}
+nav{
+    height: 69px;
+    border-bottom: 1px solid seashell
+}
+.bedford{
+    height:700px ;
+    width: 95%;
+    background-image: url(img-mission-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    position: relative;
+}
+
+.mission{
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top:350px;
+    width: 100%;
+}
+.tea-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:1000px;
+    margin: auto;
+    
+}
+.tea-minue img{
+   height: 200px;
+   width: 300px;
+}
+.tea-minue{
+    margin: 10px;
+}
+.location{
+    background-image: url(img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:95%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.locations{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
